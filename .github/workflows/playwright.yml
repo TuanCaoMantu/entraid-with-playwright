@@ -30,7 +30,7 @@ jobs:
         # Azure AD test credentials - set these in GitHub Secrets
         AADUSERNAME: ${{ secrets.AADUSERNAME }}
         AADPASSWORD: ${{ secrets.AADPASSWORD }}
-        APP_URL: ${{ secrets.APP_URL }}
+        APP_URL: 'https://imp.intearp.mantu.com'
         # Optional: Azure AD tenant settings
         TENANT_ID: ${{ secrets.TENANT_ID }}
         CLIENT_ID: ${{ secrets.CLIENT_ID }}
