@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Test outputs
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Authentication state
+.auth/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
